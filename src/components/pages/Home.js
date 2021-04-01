@@ -3,7 +3,7 @@ import Hero from "../Hero";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import Background from "../Cards/Background";
-
+import Favorites from "../Cards/Favorites";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -28,7 +28,7 @@ export default function Home() {
         <Background />
       </Grid>
       <Grid item xs={4}>
-        dsds
+        <Favorites />
       </Grid>
       <Grid item xs={2}></Grid>
     </Grid>
