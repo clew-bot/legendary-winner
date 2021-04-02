@@ -40,6 +40,7 @@ export default function Favorites() {
         Randolph, Dax Shepard{" "}
       </h4>
       <h4>iPhone or Android: iPhone</h4>
+      <h4>Favorite Game: Pokemon</h4>
       <h4>Favorite Language: Javascript</h4>
       <h4>Favorite what? Are you still reading this?</h4>
     </Paper>

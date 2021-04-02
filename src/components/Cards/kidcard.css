@@ -1,0 +1,15 @@
+.jisho {
+  background-color: #d1d2e6;
+  display: "block";
+  width: "30vw";
+}
+
+.atag {
+  color: inherit;
+}
+
+.firsth1 {
+  text-align: center;
+  margin-top: 20vw;
+  margin-bottom: 50vw;
+}
