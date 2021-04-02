@@ -3,9 +3,11 @@ import React from "react";
 export default function Contact() {
   return (
     <div style={{ textAlign: "center", marginTop: "100px" }}>
+      <h1>Thanks for visiting! </h1>
+      <br />
       <h1>
-        Thanks for visiting! If you want to get in contact with me feel free to
-        fill out this form to your best ability.
+        If you want to get in contact with me feel free to fill out this form to
+        your best ability.
       </h1>
       <br />
       <br />

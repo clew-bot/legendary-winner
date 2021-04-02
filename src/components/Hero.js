@@ -30,17 +30,26 @@ export default function Hero() {
 
         <div style={{ padding: "50px", lineHeight: "1.6" }}>
           <p>
-            I'm a hardworking, fun, caring guy that loves to code and read
-            books. I'm a Jr. Software Developer, and I like to deliver quality
-            content across all platforms. While I'm 25 years old, my passion for
-            coding is fueled by my background in Sociology, always wondering how
-            everything works and to never stop exploring. I have a background in
-            Sociology at Cypress College completing an AA-T degree. After that,
-            I recently graduated at University of California Irvine for Full
-            Stack Web Development Coding Bootcamp. My main focus is coding full
-            stack applications and trying to land a job to get my feet wet and
-            eventually work for a company that contributes to the world in a
-            positive way.
+            I'm a <span style={{ color: "green" }}>hardworking</span>,{" "}
+            <span style={{ color: "blue" }}>fun</span>,{" "}
+            <span style={{ color: "red" }}>caring</span> guy that loves to code
+            and read books. I'm a{" "}
+            <span style={{ color: "brown", fontWeight: "bold" }}>
+              Jr. Software Developer
+            </span>
+            , and I like to deliver quality content across all platforms. While
+            I'm 25 years old, my passion for coding i fueled by my interest in
+            <span style={{ color: "#427a4f" }}> Sociology</span>, always
+            wondering how everything works and to never stop exploring. I have a
+            background in Sociology at Cypress College completing an AA-T
+            degree. After that, I recently graduated at University of California
+            Irvine for{" "}
+            <span style={{ color: "#cc8666", fontWeight: "bold" }}>
+              Full Stack Web Development Coding Bootcamp.
+            </span>{" "}
+            My main focus is coding full stack applications and trying to land a
+            job to get my feet wet and eventually work for a company that
+            contributes to the world in a positive way.
           </p>
           <div style={{ display: "flex", justifyContent: "center" }}>
             <a
