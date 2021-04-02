@@ -38,7 +38,7 @@ export default function Hero() {
               Jr. Software Developer
             </span>
             , and I like to deliver quality content across all platforms. While
-            I'm 25 years old, my passion for coding i fueled by my interest in
+            I'm 25 years old, my passion for coding is fueled by my interest in
             <span style={{ color: "#427a4f" }}> Sociology</span>, always
             wondering how everything works and to never stop exploring. I have a
             background in Sociology at Cypress College completing an AA-T
@@ -51,6 +51,10 @@ export default function Hero() {
             job to get my feet wet and eventually work for a company that
             contributes to the world in a positive way.
           </p>
+          <br />
+          <h3 style={{ textAlign: "center" }}>
+            Check out my GitHub and LinkedIn Below
+          </h3>
           <div style={{ display: "flex", justifyContent: "center" }}>
             <a
               href="https://github.com/clew-bot"

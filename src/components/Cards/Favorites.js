@@ -31,7 +31,7 @@ export default function Favorites() {
         </p>
         <p>
           <span style={{ fontWeight: "bold" }}>Favorite Type of Music:</span>
-          <code>if (coding) playKpop() && playLoFi() else playAll();</code>
+          <code> if (coding) playKpop() && playLoFi() else playAll();</code>
         </p>
         <p>
           <span style={{ fontWeight: "bold" }}>Favorite Item to collect:</span>{" "}

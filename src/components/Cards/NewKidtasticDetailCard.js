@@ -71,7 +71,7 @@ export default function NewKidtasicDetailCard() {
             <br></br>
           </Typography>
           <Typography>
-            <a className="atag" href="https://github.com/clew-bot/KidTastic">
+            <a className="atag" href="https://github.com/clew-bot/kidtasticv2">
               <svg
                 viewBox="0 0 15 15"
                 fill="none"
@@ -87,7 +87,7 @@ export default function NewKidtasicDetailCard() {
               Link to repo
             </a>
             <br />
-            <a className="atag" href="https://http://kidtastic.herokuapp.com/">
+            <a className="atag" href="https://kidtastic.herokuapp.com/">
               <svg
                 viewBox="0 0 15 15"
                 fill="none"
