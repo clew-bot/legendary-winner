@@ -62,7 +62,7 @@ export default function NewKidtasicDetailCard() {
             <img
               src="./assets/images/kidtasticv2demo.png"
               alt="kidtastic on MERN"
-              height="350px"
+              height="300px"
               style={{ border: "solid 2px black" }}
             />
             <br></br>

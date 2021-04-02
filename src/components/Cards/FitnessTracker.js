@@ -61,7 +61,7 @@ export default function FitnessTracker() {
             <img
               src="./assets/images/fitness.png"
               alt="fitness tracker"
-              width="450px"
+              width="400px"
               style={{ border: "solid 2px black" }}
             />
 

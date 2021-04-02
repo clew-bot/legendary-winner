@@ -18,7 +18,7 @@ export default function Favorites() {
     <Paper elevation={3} style={{ marginTop: "90px" }}>
       <br />
       <h1 style={{ textAlign: "center", marginTop: "20px" }}>Personal Life</h1>
-      <div style={{ padding: "50px" }}>
+      <div style={{ padding: "50px", lineHeight: "1.6" }}>
         <h4>Hometown : Orange County CA</h4>
         <h4>
           Schools Attended: Cypress College, University of California Irvine

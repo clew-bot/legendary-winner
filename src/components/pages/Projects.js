@@ -22,7 +22,7 @@ export default function Projects() {
           <NewKidtasicDetailCard />
         </Grid>
         <Grid item xs={12} md={12} lg={4}>
-          <Kidtasticv2DetailCard />
+          <ClewbotDexCard />
         </Grid>
         <Grid item xs={2}></Grid>
         {/* BREAK */}
@@ -35,7 +35,7 @@ export default function Projects() {
           <BudgetTrackerCard />
         </Grid>
         <Grid item xs={12} lg={4}>
-          <ClewbotDexCard />
+          <Kidtasticv2DetailCard />
         </Grid>
         <Grid item xs={2}></Grid>
         {/* BREAK */}

@@ -68,7 +68,7 @@ export default function NutriSpot() {
             <img
               src="./assets/images/nutrispot.png"
               alt="nutrispot"
-              width="450px"
+              width="420px"
               style={{ border: "solid 2px black" }}
             />
 
