@@ -10,6 +10,8 @@ export default function Contact() {
         your best ability.
       </h1>
       <br />
+      <h1>I will get back to you as soon as I can!</h1>
+      <br />
       <br />
       <br />
       <iframe
