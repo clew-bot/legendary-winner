@@ -35,6 +35,7 @@ export default function TechCard() {
         <div className={classes.centerme}>
           <Typography>
             <h1>Budget-Tracker</h1>
+            <br />
           </Typography>
           <Typography className={classes.pos} color="textPrimary">
             Don't ever lose track of expenses! Budget tracker using PWA

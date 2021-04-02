@@ -1,49 +1,68 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
+
 import Paper from "@material-ui/core/Paper";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: "flex",
-    flexWrap: "wrap",
-    "& > *": {
-      margin: theme.spacing(1),
-      width: theme.spacing(16),
-      height: theme.spacing(1),
-    },
-  },
-}));
 export default function Favorites() {
   return (
     <Paper elevation={3} style={{ marginTop: "90px" }}>
       <br />
       <h1 style={{ textAlign: "center", marginTop: "20px" }}>Personal Life</h1>
-      <div style={{ padding: "50px", lineHeight: "1.6" }}>
-        <h4>Hometown : Orange County CA</h4>
-        <h4>
-          Schools Attended: Cypress College, University of California Irvine
-        </h4>
+      <div style={{ padding: "30px", lineHeight: "1.6" }}>
+        <p>
+          <span style={{ fontWeight: "bold" }}>Hometown :</span> Orange County
+          CA
+        </p>
+        <p>
+          <span style={{ fontWeight: "bold" }}>Schools Attended:</span> Cypress
+          College, University of California Irvine
+        </p>
 
-        <h4>Pets: 1 Dog Mochi, 1 Bird Cleo, 1 Fish Pedro, as of 3/31/21</h4>
-        <h4>Favorite Dish: Some good Gyoza</h4>
-        <h4>Favorite TV show: Cobra Kai</h4>
-        <h4>
-          Favorite Type of Music:{" "}
-          <code>if (coding) playKpop() else playAll();</code>
-        </h4>
-        <h4>Favorite Item to collect: Yugioh/Pokemon Cards</h4>
-        <h4>
-          Favorite Joke: Which bar did the programmer go too? ....The Foo Bar
-        </h4>
-        <h4>Favorite Book: Steve Jobs by Walter Isaacson</h4>
-        <h4>
-          Inspirations: Mom, Dad, Jeff Dean, Mark Zuckerberg, Jeff Bezos, Marc
-          Randolph, Dax Shepard{" "}
-        </h4>
-        <h4>iPhone or Android: iPhone</h4>
-        <h4>Favorite Game: Pokemon</h4>
-        <h4>Favorite Language: Javascript</h4>
-        <h4>Favorite what? Are you still reading this?</h4>
+        <p>
+          <span style={{ fontWeight: "bold" }}>Pets:</span> 1 Dog Mochi, 1 Bird
+          Cleo, 1 Fish Pedro, as of 3/31/21
+        </p>
+        <p>
+          <span style={{ fontWeight: "bold" }}>Favorite Dish:</span> Some good
+          Gyoza
+        </p>
+        <p>
+          <span style={{ fontWeight: "bold" }}>Favorite TV show:</span> Cobra
+          Kai
+        </p>
+        <p>
+          <span style={{ fontWeight: "bold" }}>Favorite Type of Music:</span>
+          <code>if (coding) playKpop() && playLoFi() else playAll();</code>
+        </p>
+        <p>
+          <span style={{ fontWeight: "bold" }}>Favorite Item to collect:</span>{" "}
+          Yugioh/Pokemon Cards
+        </p>
+        <p>
+          <span style={{ fontWeight: "bold" }}>Favorite Joke:</span> Which bar
+          did the programmer go too? ....The Foo Bar
+        </p>
+        <p>
+          <span style={{ fontWeight: "bold" }}>Favorite Book:</span> Steve Jobs
+          by Walter Isaacson
+        </p>
+        <p>
+          <span style={{ fontWeight: "bold" }}>Inspirations:</span> Mom, Dad,
+          Jeff Dean, Mark Zuckerberg, Jeff Bezos, Marc Randolph, Dax Shepard{" "}
+        </p>
+        <p>
+          <span style={{ fontWeight: "bold" }}>iPhone or Android:</span> iPhone
+        </p>
+        <p>
+          <span style={{ fontWeight: "bold" }}>Favorite Game:</span> Pokemon
+        </p>
+        <p>
+          <span style={{ fontWeight: "bold" }}>Favorite Language:</span>{" "}
+          Javascript
+        </p>
+        <p>
+          <span style={{ fontWeight: "bold" }}>Favorite what?</span> Are you
+          still reading this?
+        </p>
       </div>
     </Paper>
   );

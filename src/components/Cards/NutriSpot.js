@@ -35,12 +35,13 @@ export default function NutriSpot() {
         <div className={classes.centerme}>
           <Typography>
             <h1>NutriSpot</h1>
+            <br />
           </Typography>
           <Typography className={classes.pos} color="textPrimary">
             This app was inspired by people who are interested in quality meals
             and that want options to either cook themselves or swing by a
             restaurant for some take-out. Motivation to build this came from our
-            passion for quality food and to show users that there are other
+            passion for queality food and to show users that there are other
             options besides Mickey D’s drive through. Nutri Spot incorporates
             Spoonacular’s API to search for healthy food, their nutritional
             data, and the ingredients one would need to make that meal.

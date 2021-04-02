@@ -1,26 +1,14 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
+
 import Paper from "@material-ui/core/Paper";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: "flex",
-    flexWrap: "wrap",
-    "& > *": {
-      margin: theme.spacing(1),
-      width: theme.spacing(16),
-      height: theme.spacing(1),
-    },
-  },
-}));
 export default function Background() {
-  const classes = useStyles();
   return (
     <Paper elevation={3} style={{ marginTop: "90px" }}>
       <br />
       <h1 style={{ textAlign: "center" }}>My Story (summed up)</h1>
       <div style={{ lineHeight: "1.6" }}>
-        <p style={{ padding: "50px" }}>
+        <p style={{ padding: "35px" }}>
           Out of college I had gotten my AA-T for sociology from Cypress. Upon
           getting the degree I had a strange feeling that it wouldn't pan out as
           I wanted too. Reason being is because it hit me hard that I did not

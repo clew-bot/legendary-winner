@@ -35,6 +35,7 @@ export default function ClewbotDexCard() {
         <div className={classes.centerme}>
           <Typography>
             <h1>React Reading List</h1>
+            <br />
           </Typography>
           <Typography className={classes.pos} color="textPrimary">
             React application that keeps track of what books you want to read in

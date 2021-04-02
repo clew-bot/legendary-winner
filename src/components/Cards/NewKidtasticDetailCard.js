@@ -33,6 +33,7 @@ export default function NewKidtasicDetailCard() {
         <div className={classes.centerme}>
           <Typography>
             <h1>KidTastic</h1>
+            <br />
           </Typography>
           <Typography className={classes.pos} color="textPrimary">
             KidTastic is a fun kids website that kids can go on watch videos and

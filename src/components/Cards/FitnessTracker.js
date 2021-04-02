@@ -35,6 +35,7 @@ export default function FitnessTracker() {
         <div className={classes.centerme}>
           <Typography>
             <h1>Fitness Tracker</h1>
+            <br />
           </Typography>
           <Typography className={classes.pos} color="textPrimary">
             With Covid on the rise it's more and more likely people are going to

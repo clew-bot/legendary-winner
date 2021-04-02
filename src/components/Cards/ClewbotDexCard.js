@@ -35,6 +35,7 @@ export default function ClewbotDexCard() {
         <div className={classes.centerme}>
           <Typography>
             <h1>ClewDex (in progress)</h1>
+            <br />
           </Typography>
           <Typography className={classes.pos} color="textPrimary">
             Pokedex to help get specific pokemon details. Uses the pokeapi to

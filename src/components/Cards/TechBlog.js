@@ -35,6 +35,7 @@ export default function NutriSpot() {
         <div className={classes.centerme}>
           <Typography>
             <h1>Tech-Blog</h1>
+            <br />
           </Typography>
           <Typography className={classes.pos} color="textPrimary">
             Tech blog that uses the MVC standards. User is able to sign up,

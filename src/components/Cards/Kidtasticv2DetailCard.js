@@ -33,6 +33,7 @@ export default function Kidtasticv2DetailCard() {
         <div className={classes.centerme}>
           <Typography>
             <h1>KidTastic v1</h1>
+            <br />
           </Typography>
           <Typography className={classes.pos} color="textPrimary">
             My first version of Kidtastic! This was developed using handlebars
