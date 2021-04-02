@@ -17,10 +17,9 @@ export default function Background() {
   const classes = useStyles();
   return (
     <Paper elevation={3} style={{ marginTop: "90px" }}>
-      <h1 style={{ textAlign: "center", marginBottom: "30px" }}>
-        My Story (summed up)
-      </h1>
-      <p>
+      <br />
+      <h1 style={{ textAlign: "center" }}>My Story (summed up)</h1>
+      <p style={{ padding: "50px" }}>
         Out of college I had gotten my AA-T for sociology from Cypress. Upon
         getting the degree I had a strange feeling that it wouldn't pan out as I
         wanted too. Reason being is because it hit me hard that I did not want
