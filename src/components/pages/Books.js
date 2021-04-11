@@ -33,7 +33,7 @@ export default function Books() {
       <GridList cellHeight={500} className={classes.gridList}>
         <GridListTile key="Subheader" cols={2} style={{ height: "auto" }}>
           <ListSubheader component="div">
-            My Favorite Books I've Read.
+            Some of my favorites! Needs to be updated.
           </ListSubheader>
         </GridListTile>
         {tileData.map((tile) => (

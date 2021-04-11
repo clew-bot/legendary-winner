@@ -1,9 +1,17 @@
 import React from "react";
 
 import Paper from "@material-ui/core/Paper";
-
+import { makeStyles } from '@material-ui/core/styles';
+const useStyles = makeStyles({
+  root: {
+    backgroundColor: "#e6e1e1",
+    
+  },
+});
 export default function Favorites() {
+  const classes = useStyles();
   return (
+    <div className={classes.root}>
     <Paper elevation={3} style={{ marginTop: "90px" }}>
       <br />
       <h1 style={{ textAlign: "center", marginTop: "20px" }}>Personal Life</h1>
@@ -65,5 +73,6 @@ export default function Favorites() {
         </p>
       </div>
     </Paper>
+    </div>
   );
 }

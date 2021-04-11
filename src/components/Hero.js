@@ -1,26 +1,41 @@
 import React from "react";
-
+// import App from "./Cards/Zdog.js"
+import { makeStyles } from '@material-ui/core/styles';
 import Paper from "@material-ui/core/Paper";
 
+const useStyles = makeStyles({
+  root: {
+    backgroundColor: "#e6e1e1",
+    
+  },
+});
+
+// import { Illustration, Ellipse, Shape, RoundedRect, useRender } from 'react-zdog'
 export default function Hero() {
+  const classes = useStyles();
   return (
-    <div className="hero-container">
+    <div className={classes.root}>
       {/* <img
         src="/assets/images/nature.png"
         alt="sourcing"
         className="natureImg"
       /> */}
-      <Paper elevation={3} style={{ marginTop: "100px" }}>
+          {/* <App /> */}
+        {/* <Illustration zoom={8}> */}
+    {/* <Ellipse diameter={20} rotate={{ x: -TAU / 3 }} translate={{ y: 15, z: -100 }} stroke={4} color="#373740" fill /> */}
+  
+      {/* </Illustration> */}
+      <Paper elevation={3} style={{ marginTop: "100px" }} className={classes.root}>
         <br />
         <img
-          src="./assets/images/chadlew.jpg"
+          src="./assets/images/mochi.jpg"
           alt="me! yay!"
-          height="300px"
+          height="100px"
           style={{
             display: "block",
             marginLeft: "auto",
             marginRight: "auto",
-            borderRadius: "100px",
+            borderRadius: "50%",
             marginBottom: "20px",
           }}
         />
@@ -30,15 +45,14 @@ export default function Hero() {
 
         <div style={{ padding: "50px", lineHeight: "1.6" }}>
           <p>
-            I'm a <span style={{ color: "green" }}>hardworking</span>,{" "}
-            <span style={{ color: "blue" }}>fun</span>,{" "}
+            <span style={{ color: "green" }}>Down to earth</span>,{" "}
+            <span style={{ color: "blue" }}>adventurous</span>,{" "}
             <span style={{ color: "red" }}>caring</span> guy that loves to code
             and read books. I'm a{" "}
             <span style={{ color: "brown", fontWeight: "bold" }}>
-              Jr. Software Developer
-            </span>
-            , and I like to deliver quality content across all platforms. While
-            I'm 25 years old, my passion for coding is fueled by my interest in
+              Jr. Software Developer&nbsp; 
+             </span>
+                   in the making, with a background in Sociology and customer service. While at 25 years old, the passion for coding is fueled by my interest in 
             <span style={{ color: "#427a4f" }}> Sociology</span>, always
             wondering how everything works and to never stop exploring. I have a
             background in Sociology at Cypress College completing an AA-T
@@ -47,9 +61,7 @@ export default function Hero() {
             <span style={{ color: "#cc8666", fontWeight: "bold" }}>
               Full Stack Web Development Coding Bootcamp.
             </span>{" "}
-            My main focus is coding full stack applications and trying to land a
-            job to get my feet wet and eventually work for a company that
-            contributes to the world in a positive way.
+            As I look towards the next step, my main focus is programming and trying to land a job to get my feet wet and eventually work for a company that contributes to the world in a positive way.
           </p>
           <br />
           <h3 style={{ textAlign: "center" }}>

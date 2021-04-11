@@ -1,15 +1,23 @@
 import React from "react";
 
 import Paper from "@material-ui/core/Paper";
-
+import { makeStyles } from '@material-ui/core/styles';
+const useStyles = makeStyles({
+  root: {
+    backgroundColor: "#e6e1e1",
+    
+  },
+});
 export default function Background() {
+  const classes = useStyles();
   return (
-    <Paper elevation={3} style={{ marginTop: "90px" }}>
+    <div className={classes.root}>
+    <Paper elevation={3} style={{ marginTop: "90px" }} className={classes.root}>
       <br />
       <h1 style={{ textAlign: "center" }}>My Story (summed up)</h1>
       <div style={{ lineHeight: "1.6" }}>
         <p style={{ padding: "35px" }}>
-          Out of college I had gotten my AA-T for sociology from Cypress. Upon
+          I studied for sociology from Cypress College, with classes in business and computer programming. Upon
           getting the degree I had a strange feeling that it wouldn't pan out as
           I wanted too. Reason being is because it hit me hard that I did not
           want to be a sociologist anymore. My passion for Sociology came from
@@ -33,5 +41,6 @@ export default function Background() {
         </p>
       </div>
     </Paper>
+    </div>
   );
 }
