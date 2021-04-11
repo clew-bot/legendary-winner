@@ -28,7 +28,7 @@ export default function Hero() {
       <Paper elevation={3} style={{ marginTop: "100px" }} className={classes.root}>
         <br />
         <img
-          src="./assets/images/mochi.jpg"
+          src="./assets/images/mochi.JPG"
           alt="me! yay!"
           height="100px"
           style={{
