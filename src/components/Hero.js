@@ -5,7 +5,7 @@ import Paper from "@material-ui/core/Paper";
 
 const useStyles = makeStyles({
   root: {
-    backgroundColor: "#e6e1e1",
+    backgroundColor: "white",
     
   },
 });

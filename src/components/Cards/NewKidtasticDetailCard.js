@@ -52,6 +52,7 @@ export default function NewKidtasicDetailCard() {
             <h5>react</h5>
             <h5>mongoose</h5>
             <h5>express</h5>
+            <h5>lots and lots of css</h5>
             <h5>react-youtube</h5>
             <h5>nodejs</h5>
             <h5>material-ui</h5>
