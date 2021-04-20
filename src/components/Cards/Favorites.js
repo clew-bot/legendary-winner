@@ -26,8 +26,7 @@ export default function Favorites() {
         </p>
 
         <p>
-          <span style={{ fontWeight: "bold" }}>Pets:</span> 1 Dog Mochi, 1 Bird
-          Cleo, 1 Fish Pedro, as of 3/31/21
+          <span style={{ fontWeight: "bold" }}>Pets:</span> 1 Dog and 1 Fish as of 4/16/21
         </p>
         <p>
           <span style={{ fontWeight: "bold" }}>Favorite Dish:</span> Some good

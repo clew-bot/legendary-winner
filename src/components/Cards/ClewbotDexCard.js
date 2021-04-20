@@ -52,12 +52,14 @@ export default function ClewbotDexCard() {
             <h5>react</h5>
             <h5>pokeapi</h5>
             <h5>vercel</h5>
+            <h5>pagination</h5>
+            <h5>material-ui</h5>
 
             <br></br>
             <br></br>
             <br></br>
             <img
-              src="./assets/images/clewbotdex.png"
+              src="./assets/images/newdex.png"
               alt="clewdex (still in developement)"
               height="280px"
               style={{ border: "solid 2px black" }}
